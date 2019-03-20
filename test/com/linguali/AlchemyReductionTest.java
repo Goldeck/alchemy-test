@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class BowlingKataTest {
+class AlchemyReductionTest {
 
     @Test
     public void Test(){
