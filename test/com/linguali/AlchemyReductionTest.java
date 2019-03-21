@@ -15,6 +15,10 @@ class AlchemyReductionTest {
     public void should_minimize_AaBbC_to_C() throws Exception {
         assertEquals("C", minimize("AaBbC"));
     }
+    @Test
+    public void should_minimize_AZERTYYtreza_to_AZERTYYtreza() throws Exception {
+        assertEquals("AZERTYYtreza", minimize("AZERTYYtreza"));
+    }
 
     @Test
     public void should_minimize_AaBbCc_to_empty_string() throws Exception {
@@ -107,6 +111,18 @@ class AlchemyReductionTest {
             fail("Should fail as the i selected is the last member of the list");
         }catch(Exception e){
             assert(e.getMessage().contains("you can't use this method on the last member of the list"));
+        }
+    }
+
+    @Test
+    public void should_throw_exception_when_index_is_negatif(){
+        try {
+            String input = "AaBbC";
+            List<Character> inputList = Minimize.toCharacterList(input.toCharArray());
+            Minimize.removeTwoCharacters(inputList,- 1);
+            fail("Should fail as the i selected is the negatif");
+        }catch(Exception e){
+            assert(e.getMessage().contains("you can't use this method with a negatif index "));
         }
     }
 

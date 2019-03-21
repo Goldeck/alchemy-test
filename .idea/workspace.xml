@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c380996a-5e4f-448a-950f-9c2ebde44601" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlchemyReduction.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AlchemyReduction.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/linguali/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/linguali/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlchemyReduction/com/linguali/Minimize.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlchemyReduction/com/linguali/Minimize.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/AlchemyReduction/com/linguali/AlchemyReductionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/AlchemyReduction/com/linguali/AlchemyReductionTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/linguali/Minimize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/linguali/Minimize.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/com/linguali/AlchemyReductionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/linguali/AlchemyReductionTest.java" afterDir="false" />
     </list>
@@ -31,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AlchemyReductionTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AlchemyReductionTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/linguali/AlchemyReductionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="1445">
+              <caret line="117" selection-start-line="117" selection-end-line="117" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Minimize.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Minimize.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/linguali/Minimize.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+            <state relative-caret-position="153">
+              <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,7 +94,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="775" />
@@ -238,6 +238,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="AlchemyReductionTest.should_throw_exception_when_index_is_negatif" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlchemyReduction" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.linguali.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.linguali" />
+      <option name="MAIN_CLASS_NAME" value="com.linguali.AlchemyReductionTest" />
+      <option name="METHOD_NAME" value="should_throw_exception_when_index_is_negatif" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="AlchemyReductionTest.should_throw_exception_when_removeTwoCharacters_last" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlchemyReduction" />
       <extension name="coverage">
@@ -313,12 +336,14 @@
       <item itemvalue="JUnit.AlchemyReductionTest.Test" />
       <item itemvalue="JUnit.AlchemyReductionTest" />
       <item itemvalue="JUnit.AlchemyReductionTest.should_throw_exception_when_removeTwoCharacters_last" />
+      <item itemvalue="JUnit.AlchemyReductionTest.should_throw_exception_when_index_is_negatif" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.AlchemyReductionTest" />
-        <item itemvalue="JUnit.AlchemyReductionTest.should_throw_exception_when_removeTwoCharacters_last" />
+        <item itemvalue="JUnit.AlchemyReductionTest.should_throw_exception_when_index_is_negatif" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.AlchemyReductionTest.should_throw_exception_when_removeTwoCharacters_last" />
         <item itemvalue="JUnit.AlchemyReductionTest.Test" />
       </list>
     </recent_temporary>
@@ -338,34 +363,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AlchemyReductionTest_should_throw_exception_when_removeTwoCharacters_last - 2019.03.20 at 22h 23m 57s.xml">
-      <configuration name="AlchemyReductionTest.should_throw_exception_when_removeTwoCharacters_last" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AlchemyReductionTest - 2019.03.20 at 22h 24m 11s.xml">
+    <history-entry file="AlchemyReductionTest - 2019.03.20 at 23h 36m 47s.xml">
       <configuration name="AlchemyReductionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AlchemyReductionTest - 2019.03.20 at 22h 28m 49s.xml">
+    <history-entry file="AlchemyReductionTest - 2019.03.20 at 23h 37m 40s.xml">
       <configuration name="AlchemyReductionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AlchemyReductionTest - 2019.03.20 at 22h 30m 34s.xml">
+    <history-entry file="AlchemyReductionTest - 2019.03.20 at 23h 44m 06s.xml">
       <configuration name="AlchemyReductionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AlchemyReductionTest - 2019.03.20 at 23h 00m 02s.xml">
+    <history-entry file="AlchemyReductionTest - 2019.03.20 at 23h 44m 57s.xml">
       <configuration name="AlchemyReductionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AlchemyReductionTest - 2019.03.20 at 23h 00m 59s.xml">
+    <history-entry file="AlchemyReductionTest - 2019.03.20 at 23h 45m 45s.xml">
       <configuration name="AlchemyReductionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AlchemyReductionTest - 2019.03.20 at 23h 04m 43s.xml">
+    <history-entry file="AlchemyReductionTest - 2019.03.20 at 23h 46m 50s.xml">
       <configuration name="AlchemyReductionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AlchemyReductionTest - 2019.03.20 at 23h 14m 33s.xml">
+    <history-entry file="AlchemyReductionTest - 2019.03.20 at 23h 48m 45s.xml">
       <configuration name="AlchemyReductionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AlchemyReductionTest - 2019.03.20 at 23h 15m 50s.xml">
+    <history-entry file="AlchemyReductionTest_should_throw_exception_when_index_is_negatif - 2019.03.20 at 23h 49m 34s.xml">
+      <configuration name="AlchemyReductionTest.should_throw_exception_when_index_is_negatif" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AlchemyReductionTest - 2019.03.20 at 23h 49m 46s.xml">
       <configuration name="AlchemyReductionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AlchemyReductionTest - 2019.03.20 at 23h 17m 16s.xml">
+    <history-entry file="AlchemyReductionTest - 2019.03.20 at 23h 56m 01s.xml">
       <configuration name="AlchemyReductionTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -373,18 +398,18 @@
     <option name="totallyTimeSpent" value="4011000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info active="true" anchor="bottom" id="Messages" order="0" visible="true" weight="0.32817337" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32817337" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="0" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.3993808" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.3993808" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info id="Capture Tool" order="2" />
@@ -448,7 +473,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -504,20 +529,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/linguali/AlchemyReductionTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/linguali/Minimize.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="153">
+          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/linguali/Minimize.java">
+    <entry file="file://$PROJECT_DIR$/test/com/linguali/AlchemyReductionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        <state relative-caret-position="1445">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

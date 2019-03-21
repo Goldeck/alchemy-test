@@ -11,11 +11,15 @@ public class Minimize {
     public static String minimize(String input) throws Exception {
         char[] inputChars = input.toCharArray();
         List<Character> inputlist = toCharacterList(inputChars);
-        while (findDoubleLetter(inputlist) != -1) {
-            inputlist = removeTwoCharacters(inputlist, findDoubleLetter(inputlist));
+
+        while(true){
+            int index = findDoubleLetter(inputlist);
+            if(index == -1)
+                return toString(inputlist);
+            else
+                inputlist = removeTwoCharacters(inputlist, findDoubleLetter(inputlist));
         }
 
-        return toString(inputlist);
     }
 
     public static int findDoubleLetter(List<Character> inputArray) {
@@ -31,6 +35,9 @@ public class Minimize {
     public static List<Character> removeTwoCharacters(List<Character> inputArray, int i) throws Exception {
         if (i >= inputArray.size() - 1) {
             throw new Exception("you can't use this method on the last member of the list");
+        }
+        else if (i < 0) {
+            throw new Exception("you can't use this method with a negatif index ");
         }
         List<Character> outputArray = new ArrayList<>();
         for (int j = 0; j < inputArray.size() - 2; j++) {
